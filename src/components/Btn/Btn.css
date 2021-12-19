@@ -1,0 +1,13 @@
+.btn {
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 600;
+  background-color: inherit;
+}
+
+.btn__fluid {
+  width: 100%;
+  padding: 18px 20px 20px 14px;
+}

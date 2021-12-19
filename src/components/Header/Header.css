@@ -1,0 +1,14 @@
+.Header {
+  padding: 36px 14px 21px;
+}
+
+.Header__title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .Header__title {
+    text-align: center;
+  }
+}

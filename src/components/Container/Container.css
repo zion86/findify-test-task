@@ -1,0 +1,24 @@
+.Container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 26px;
+  padding-right: 26px;
+  max-width: 1452px;
+}
+
+.Container__inner {
+  padding-top: 29px;
+  padding-bottom: 29px;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .Container {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .Container__inner {
+    flex-direction: column;
+  }
+}

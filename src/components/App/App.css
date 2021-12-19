@@ -1,0 +1,46 @@
+/* RESET CSS */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  text-align: start;
+}
+
+a {
+  color: inherit;
+}
+
+.App {
+  --c-base: #121212;
+  --c-base--darker: #000000;
+  --c-base--lighter: #939393;
+  --c-base--lightest: #ffffff;
+  --f-base: 'Roboto', sans-serif;
+
+  font-family: var(--f-base);
+  font-size: 14px;
+  color: var(--c-base);
+  line-height: 1.15;
+}
