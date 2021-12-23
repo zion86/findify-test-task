@@ -37,6 +37,7 @@ a {
   --c-base--darker: #000000;
   --c-base--lighter: #939393;
   --c-base--lightest: #ffffff;
+  --c-border: #CCCCCC;
   --f-base: 'Roboto', sans-serif;
 
   font-family: var(--f-base);

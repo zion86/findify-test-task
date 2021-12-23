@@ -1,6 +1,8 @@
 .Cards {
     --c-label-background: #82B8D9;
     --c-label-text: #ffffff;
+
+    position: relative;
 }
 
 .Cards__list {
