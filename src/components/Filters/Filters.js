@@ -1,4 +1,4 @@
-import FiltersList from './FiltersList';
+import FiltersList from '../Accordion/Accordion';
 
 import './Filters.css';
 

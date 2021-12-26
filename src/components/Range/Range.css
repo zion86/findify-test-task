@@ -5,11 +5,41 @@
   align-items: center;
 }
 
-.Range__slider {
+.Range__slider-field {
+  position: relative;
   margin-top: 20px;
   display: flex;
   max-width: 271px;
   width: 100%;
+
+}
+
+.Range__slider {
+  position: absolute;
+  width: 100%;
+}
+
+.Range__slider {
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background-color: var(--c-base--lighter);
+
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.Range__slider::-webkit-slider-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--c-base);
+
+  pointer-events: auto;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .Range__inner {

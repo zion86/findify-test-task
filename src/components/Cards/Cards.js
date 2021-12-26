@@ -8,7 +8,7 @@ const Cards = ({ items }) => {
     <section className='Cards'>
       <BreadCrumbs />
       <ul className='Cards__list'>
-        { items?.map((card) => <CardsItem key={ card.title } { ...card } />) }
+        { items?.map((card, i) => <CardsItem key={ card.title + i } { ...card } />) }
       </ul>
     </section>
   );

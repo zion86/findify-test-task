@@ -1,0 +1,38 @@
+.Accordion {
+
+}
+
+.Accordion__tab {
+  
+}
+
+.Accordion__body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 0;
+  overflow: hidden;
+}
+
+.Accordion__body--open {
+  padding-bottom: 28px;
+  height: auto;
+}
+
+.Accordion__list {
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.Accordion__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.Accordion__item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
